@@ -1,0 +1,78 @@
+/*master atyles*/
+body {
+    margin: 0;
+    /* display: flex; */
+}
+
+.container {
+    padding: 30px 25px 15px 15px;
+    box-shadow: 0 2px 2px -2px rgba(0, 0, 0, .2);
+}
+
+.nav-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*brand content style*/
+.left-side {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left-side>div {
+    padding-right: 10px;
+}
+
+.brand a {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 590;
+    color: #380066;
+    text-decoration: none;
+}
+
+/*Navbar styling*/
+.right-side {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-link-wrapper {
+    padding-left: 20px;
+}
+
+.nav-link-wrapper a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: blueviolet;
+
+}
+
+.nav-link-wrapper a:hover {
+    border-bottom: 2px solid #CBD6E2;
+    padding-bottom: 3px;
+    color: #242038;
+}
+
+/*main-container style*/
+.main-container {
+    /* flex: 1 0 auto; */
+    height: auto;
+}
+
+/*footer style*/
+.footer {
+    margin: 4px 4px 1px 4px;
+    background-color: #33475B;
+    height: 300px;
+    flex-shrink: 0;
+}
+
+.footer-wrapper {
+    padding: 40px 0px 40px 80px;
+    color: #CBD6E2;
+    font-size: 18px;
+}
